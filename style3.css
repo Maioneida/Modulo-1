@@ -1,0 +1,112 @@
+ *{			/*Coloca un color en el texto que queda bien con casi todo el fondo*/
+ 	color: rgb(219, 0, 0);
+ }
+ #logo{		/*Acomoda el tamaño del logo*/
+ 	height: 20vh;
+ 	width: 10vw;
+ }
+ #h1g{		/*Posiciona y define el tamaño del NYSL, excepto para la paginas que requieren scrolleo*/
+ 	width: 88vw;
+ 	float: right;
+ 	text-align: center;
+ }
+ nav{		/*Define la anchura y la posicion del nav*/
+ 	display: flex;
+ 	width: 50vw;
+ 	justify-content: space-between;
+ 	position: absolute;
+ 	top: 0;
+ 	right: 25vw;
+ }
+ .currentPage{	/*Estiliza el link a la pagina actual*/
+ 	text-decoration: none;
+ 	background-color: red;
+ 	box-shadow: 2px 2px black;
+ 	color: green;
+ }
+ .noCurrentPage{	/*Estiliza los links a las paginas no actuales*/
+ 	background-color: blue;
+ 	box-shadow: 2px 2px black;
+ 	color: yellow;
+ }
+ h2{	/*Ubica el "titulo" de la pagina actual*/
+ 	position: absolute;
+ 	top: 20vh;
+ 	right: 45vw;
+ }
+div{	/*Coloca la imagen de fondo en toda la pantalla*/
+ 	background-image: url("images/image.jpg");
+ 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	margin: 0;
+ }
+#background{	/*Coloca la imagen de fondo en toda la pantalla, solo para paginas que requieren scrolleo*/
+ 	background-image: url("images/image.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: unset;
+	margin: 0;
+ }
+ .align{		/*Alinea textos importantes del rules*/
+ 	width: 87vw;
+ 	text-align: center;
+ 	float: right;
+ }
+ ul{			/*Casi todas las listas desordenadas son de cuadrados*/
+ 	list-style-type: square;
+ }
+ .circleList{	/*Para listas desordenadas con circulos de items*/
+ 	list-style-type: circle;
+ }
+ .alphaList{	/*Para volver a las listas ordenadas alfabeticas*/
+ 	list-style-type: lower-alpha;
+ }
+ h1{		/*Posiciona y define el tamaño del NYSL, excepto para la pagina de tablas*/
+ 	text-align: center;
+ }
+ .italicBold{	/*Estiliza el texto a negrita y cursiva*/
+ 	font-style: italic;
+ 	font-weight: bold;
+ }
+ .underline{/*Coloca subrayado al texto necesario*/
+ 	text-decoration: underline;
+ }
+ table{			/*Ajusta el tamaño de anchura de la tabla*/
+ 	width: 100%;
+ 	text-align: center;
+ }
+ footer{		/*Ordena el pie de pagina*/
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ input{			/*Modifica el la anchura de los inputs*/
+ 	width: 31vw;
+ }
+ .radio{		/*Modifica la anchura de los inputs tipo radio*/
+ 	width: 1vw;
+ }
+ .oneInput{		/*Modifica la anchura de los inputs que ocupan 2 columnas*/
+ 	width: 82vw;
+ }
+ #tdWidht{		/*Anchura de las tablas para los mapas*/
+	width: 40vw;	
+}
+#img2{			/*Acomoda el posicionamiento del mapa 2*/
+	position:relative;
+	left: 7vw;
+}
+#img3{			/*Acomoda el posicionamiento del mapa 3*/
+	position:relative;
+	left: 14vw;
+}
+#img5{			/*Acomoda el posicionamiento del mapa 5*/
+	position:relative;
+	left: 7vw;
+}
+#img6{			/*Acomoda el posicionamiento del mapa 6*/
+	position: relative;
+	left: 14vw;
+}
